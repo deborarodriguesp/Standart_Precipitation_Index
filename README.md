@@ -6,8 +6,8 @@ This script was developed based on the Standard Precip package:
 - Website: https://github.com/e-baumer/standard_precip/tree/master
 
 The run_SPI.py script uses a data frame with a format of:
-  Date        Station1       Station2
-  01/01/1990  PrecipValue1    PrecipValue1
+  - Date        Station1       Station2
+  - 01/01/1990  PrecipValue1    PrecipValue1
 
 The script opens this data frame and calculates the SPI based on Normal, Dry, and Wet years for at least 30 years.
 Then, a precipitation average is done for each category (Dry, Normal, and Wet years). In the end, a time series with three precipitations is saved for each station. 
