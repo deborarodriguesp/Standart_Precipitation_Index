@@ -40,49 +40,4 @@ The **run_find_station_fillmatrix.py** script opens a specific Excel file, which
 
 The script finds the stations and copies the coordinates information into a .dat file. This .dat file has a format to be applied to the Fillmatrix of the MOHID Model (http://wiki.mohid.com/index.php?title=FillMatrix). 
 
-> PROPERTY_NAME           : precipitation
-> 
-> PROPERTY_UNITS          : mm
-> 
-> VARIABLE_IN_TIME        : 1
-> 
-> START                   : 2022 01 01 00 00 00
-> 
-> END                     : 2023 01 01 00 00 00
-> 
-> OUTPUT_TIME             : 0 86400
-> 
-> OUTPUT_FILE             : Precip_.hdf5
-> 
-> GRID_DATA_FILE          : dtm_para_v1_edit.dat
-> 
-> FILL_OUTSIDE_POINTS     : 1
-> 
-> MAX_TIME_SPAN           : 86400
-> 
-> INTERPOLATION_METHOD    : 2
-> 
-> MAX_DISTANCE            : 1000
-> 
-> IWD_N                   : 4.0
-> 
-> SKIP_NULLVALUES         : 0
-> 
->
-> <begin_station>
->
-> NAME                    : 1045006
->
-> X                       : -45.695
-> 
-> Y                       : -10.5622
->
-> VALUE_TYPE              : TIMESERIE
-> 
-> FILENAME                :
-> E:\METEOROLOGIA\Precipitation_scenarious\Precipitation_time_series\daily_mean_precipitation_1045006.txt
-> 
-> DATA_COLUMN             : 2
-> 
-> <end_station>
 
